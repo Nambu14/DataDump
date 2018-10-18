@@ -1,0 +1,154 @@
+{
+    "host": "localhost",
+    "database": "mural_st",
+    "schema": "pre_stg",
+    "user": "postgres",
+    "password": "admin",
+    "port": "5432",
+    "tables": [
+        {
+			"name": "mural_contents",
+			"file": "c:/dump/test/muralcontents.bson",
+			"dump_flag": "0",
+			"columns": "[]"
+        },
+		{
+			"name": "pending_invitations",
+            "file": "c:/dump/test/pendinginvitations.bson",
+            "dump_flag": "0",
+            "columns": "[]"
+        },
+        {
+			"name": "profiles",
+            "file": "c:/dump/test/profiles.bson",
+            "dump_flag": "1",
+            "columns": "['email', 'name', 'surname', 'username']"
+        },
+        {
+			"name": "rooms",
+            "file": "c:/dump/test/rooms.bson",
+            "dump_flag": "0",
+            "columns": "[]"
+        },
+        {
+			"name": "test_users",
+            "file": "c:/dump/test/test-users.bson",
+            "dump_flag": "0",
+            "columns": "[]"
+        },
+        {
+			"name": "activity_summary",
+			"file": "c:/dump/murally/activitySummary.bson",
+			"dump_flag": "1",
+			"columns": "['timestamp', 'content', 'action', 'mural', 'widget', 'user']"
+        },
+		{
+			"name": "chats",
+            "file": "c:/dump/murally/chats.bson",
+            "dump_flag": "0",
+            "columns": "[]"
+        },
+        {
+            "name": "companies",
+            "file": "c:/dump/murally/companies.bson",
+            "dump_flag": "1",
+            "columns": "['id', 'name', 'domains', 'settings', 'workspace']"
+        },
+        {
+            "name": "device_registration",
+            "file": "c:/dump/murally/deviceRegistration.bson",
+            "dump_flag": "0",
+            "columns": "[]"
+        },
+        {
+			"name": "devices",
+            "file": "c:/dump/murally/devices.bson",
+            "dump_flag": "0",
+            "columns": "[]"
+        },
+        {
+			"name": "email_verification",
+            "file": "c:/dump/murally/emailVerification.bson",
+            "dump_flag": "0",
+            "columns": "[]"
+        },
+        {
+			"name": "experiments",
+            "file": "c:/dump/murally/experiments.bson",
+            "dump_flag": "0",
+            "columns": "[]"
+        },
+        {
+			"name": "forgot_passwords",
+            "file": "c:/dump/murally/forgotpasswords.bson",
+            "dump_flag": "0",
+            "columns": "[]"
+        },
+        {
+            "name": "msbot",
+            "file": "c:/dump/murally/msbot.bson",
+            "dump_flag": "0",
+            "columns": "[]"
+        },
+        {
+            "name": "mural_contents",
+            "file": "c:/dump/murally/muralcontents.bson",
+            "dump_flag": "0",
+            "columns": "[]"
+        },
+        {
+			"name": "pending_invitations",
+            "file": "c:/dump/murally/pendinginvitations.bson",
+            "dump_flag": "0",
+            "columns": "[]"
+        },
+        {
+			"name": "pings",
+            "file": "c:/dump/murally/pings.bson",
+            "dump_flag": "0",
+            "columns": "[]"
+        },
+        {
+			"name": "profiles",
+            "file": "c:/dump/murally/profiles.bson",
+            "dump_flag": "0",
+            "columns": "[]"
+        },
+        {
+			"name": "rate_limiters",
+            "file": "c:/dump/murally/ratelimiters.bson",
+            "dump_flag": "0",
+            "columns": "[]"
+        },
+        {
+			"name": "rooms",
+            "file": "c:/dump/murally/rooms.bson",
+            "dump_flag": "0",
+            "columns": "[]"
+        },
+        {
+			"name": "slack_integrations",
+            "file": "c:/dump/murally/slackintegrations.bson",
+            "dump_flag": "0",
+            "columns": "[]"
+        },
+        {
+			"name": "templates",
+            "file": "c:/dump/murally/templates.bson",
+            "dump_flag": "0",
+            "columns": "[]"
+        },
+        {
+			"name": "token_blacklist",
+            "file": "c:/dump/murally/tokenBlacklist.bson",
+            "dump_flag": "0",
+            "columns": "[]"
+        },
+        {
+			"name": "workspace_stats",
+            "file": "c:/dump/murally/workspaceStats.bson",
+            "dump_flag": "0",
+            "columns": "['workspaceId','members']"
+        }
+    ]
+}
